@@ -1,0 +1,96 @@
+body {
+    background: linear-gradient(to right, #ffe4f7, #fce1f1);
+    font-family: 'Fredoka', cursive;
+    color: #4a154b;
+}
+
+.card {
+    background-color: #fff0f5;
+    border: 2px solid #e0218a;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(224, 33, 138, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+h1, h3 {
+    color: #e0218a;
+    font-weight: bold;
+    text-shadow: 1px 1px #fff;
+}
+
+.btn-barbie {
+    background-color: #e0218a;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 8px 20px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(224, 33, 138, 0.3);
+}
+
+.btn-barbie:hover {
+    background-color: #ff69b4;
+    color: white;
+}
+
+canvas {
+    background: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    border: 2px dashed #e0218a;
+}
+body {
+    background: linear-gradient(135deg, #ffe6f0, #fcd6ff);
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #880e4f;
+}
+
+h1 {
+    color: #d81b60;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+.btn-barbie {
+    background-color: #ff69b4;
+    border-color: #ff69b4;
+    color: white;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+
+.btn-barbie:hover {
+    background-color: #ff1493;
+    border-color: #ff1493;
+}
+
+table {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.3);
+}
+
+thead {
+    background-color: #f8bbd0;
+    color: #880e4f;
+}
+
+.table td img {
+    border-radius: 10px;
+    box-shadow: 0 0 5px #ffb6c1;
+}
+
+.acciones a {
+    margin: 2px;
+}
+
+.text-and {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
